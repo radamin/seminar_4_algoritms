@@ -96,5 +96,3 @@ class RedBlackTree:
             self.traverse(node.left)
             print(f"{node.value} – {node.color}")
             self.traverse(node.right)
-
-
